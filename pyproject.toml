@@ -1,0 +1,16 @@
+[project]
+name = "pfe"
+version = "0.1.0"
+description = "pfe project"
+authors = [
+    {name = "skander jaouadi"}
+]
+requires-python = ">=3.11"
+dependencies = [
+    "boto3 (>=1.42.45,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
